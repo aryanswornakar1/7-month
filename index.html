@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Months With You ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+    min-height:100vh;
+    color:#fff;
+    font-family:Poppins,sans-serif;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(255,70,130,.18), transparent 30%),
+      radial-gradient(circle at 80% 70%, rgba(170,60,255,.15), transparent 32%),
+      linear-gradient(135deg,#09030b,#160813 48%,#08030c);
+    overflow-x:hidden;
+}
+body:before{
+    content:"";
+    position:fixed;inset:0;pointer-events:none;opacity:.35;
+    background-image:radial-gradient(#fff 1px,transparent 1px);
+    background-size:55px 55px;
+}
+.screen{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px 18px;
+    position:relative;
+}
+.hero{text-align:center;max-width:850px}
+.small{
+    text-transform:uppercase;letter-spacing:5px;font-size:.75rem;
+    color:#ffabc9;margin-bottom:18px;
+}
+h1{
+    font-family:"Great Vibes",cursive;
+    font-size:clamp(4rem,13vw,8.5rem);
+    line-height:.9;
+    font-weight:400;
+    text-shadow:0 0 35px rgba(255,80,145,.4);
+}
+.subtitle{font-size:1rem;color:#e8cdd9;margin:28px auto 35px;max-width:580px;line-height:1.8}
+button{
+    border:1px solid rgba(255,180,210,.5);
+    background:rgba(255,80,140,.12);
+    color:white;padding:15px 30px;border-radius:50px;
+    font-family:Poppins;font-size:.95rem;cursor:pointer;
+    backdrop-filter:blur(10px);
+    transition:.3s;
+    box-shadow:0 0 25px rgba(255,60,130,.12);
+}
+button:hover{transform:translateY(-3px);background:rgba(255,80,140,.22);box-shadow:0 10px 35px rgba(255,60,130,.2)}
+.heart{font-size:1.5rem;animation:pulse 1.8s infinite;display:inline-block}
+@keyframes pulse{50%{transform:scale(1.2)}}
+
+.content{display:none;max-width:900px;margin:auto;padding:80px 18px}
+.content.show{display:block;animation:fade .9s ease}
+@keyframes fade{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}
+.section{text-align:center;margin-bottom:80px}
+.section h2{
+    font-family:"Great Vibes",cursive;font-size:4rem;font-weight:400;
+    color:#ffb2cf;margin-bottom:25px;
+}
+.card{
+    background:rgba(255,255,255,.045);
+    border:1px solid rgba(255,180,210,.14);
+    border-radius:25px;padding:32px;
+    backdrop-filter:blur(12px);
+    box-shadow:0 20px 70px rgba(0,0,0,.25);
+}
+.letter{text-align:left;line-height:2;color:#f2dce5;font-size:1rem}
+.letter p{margin-bottom:18px}
+.highlight{color:#ffb0ce}
+.seven{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:16px;text-align:left
+}
+.reason{
+    padding:22px;border-radius:20px;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,180,210,.1);
+}
+.reason span{font-size:1.4rem;color:#ff9fc3}
+.reason h3{margin:8px 0;color:#fff;font-size:1rem}
+.reason p{font-size:.88rem;color:#cdb9c3;line-height:1.7}
+.promise{font-family:"Great Vibes",cursive;font-size:2rem;line-height:1.5;color:#ffe0ea}
+.final{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;
+}
+.final h2{font-family:"Great Vibes";font-size:clamp(4rem,12vw,7rem);font-weight:400;color:#ffb1ce}
+.final p{margin-top:20px;color:#dec5cf;line-height:1.8}
+.footer{margin-top:60px;color:#987c89;font-size:.75rem;letter-spacing:2px}
+.floating{
+    position:fixed;bottom:-30px;font-size:18px;opacity:0;
+    animation:float 8s linear infinite;pointer-events:none
+}
+@keyframes float{
+    0%{transform:translateY(0) translateX(0);opacity:0}
+    15%{opacity:.65} 100%{transform:translateY(-110vh) translateX(80px);opacity:0}
+}
+@media(max-width:650px){
+    .seven{grid-template-columns:1fr}
+    .card{padding:23px}
+    .section h2{font-size:3.3rem}
+    .letter{font-size:.92rem}
+}
+</style>
+</head>
+<body>
+
+<section class="screen" id="home">
+  <div class="hero">
+    <div class="small">A little something for my favorite person</div>
+    <h1>Happy 7 Months<br>My Love <span class="heart">♥</span></h1>
+    <p class="subtitle">
+      Seven months of us. Seven months of memories, laughter, little moments,
+      and a love that somehow keeps becoming more special.
+    </p>
+    <button onclick="openLetter()">Open Your Surprise ✨</button>
+  </div>
+</section>
+
+<main class="content" id="letter">
+
+<section class="section">
+  <h2>For You, My Love</h2>
+  <div class="card letter">
+    <p>My love,</p>
+
+    <p>
+      Today isn't just another day. It's <span class="highlight">seven months of us</span>,
+      seven months since you became such a beautiful part of my life, and honestly,
+      I still find it amazing that out of all the people in this world, I got to meet you.
+    </p>
+
+    <p>
+      In these seven months, you've become more than just someone I love.
+      You've become the person I look for when something happens, the person
+      I want to tell everything to, the person whose presence can make an ordinary
+      day feel completely different.
+    </p>
+
+    <p>
+      I know we haven't had perfect days. We've had misunderstandings, moments
+      where we didn't know what to say, moments when things felt difficult,
+      and moments when our hearts weren't completely okay. But even through
+      those moments, one thing has stayed the same for me:
+      <span class="highlight">I still choose you.</span>
+    </p>
+
+    <p>
+      I want you to know that what I feel for you isn't something temporary.
+      I'm not here only for the easy days or the beautiful moments.
+      I want to be there when you're happy, when you're tired, when you're
+      overthinking, when you need silence, and when you simply need someone
+      to remind you that you're loved.
+    </p>
+
+    <p>
+      You are so incredibly special to me. And sometimes I probably don't
+      say it perfectly, but I hope you can feel it in the little things—
+      in the way I worry about you, the way I miss you, the way I want to
+      hear about your day, and the way I never get tired of having you in my life.
+    </p>
+
+    <p>
+      Thank you for these seven months, baby. Thank you for every conversation,
+      every laugh, every late-night moment, every silly little thing, and every
+      memory we've created together.
+    </p>
+
+    <p>
+      If these seven months are only the beginning, then I can't wait to see
+      all the beautiful chapters still waiting for us.
+    </p>
+
+    <p>Happy 7 months, my beautiful girl. <span class="highlight">I love you. ❤️</span></p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>7 Things I Love About You</h2>
+  <div class="seven">
+    <div class="reason"><span>01</span><h3>Your heart</h3><p>The beautiful person you are inside is one of the biggest reasons I fell for you.</p></div>
+    <div class="reason"><span>02</span><h3>Your smile</h3><p>There is something about your smile that can make even my worst days feel lighter.</p></div>
+    <div class="reason"><span>03</span><h3>Your little habits</h3><p>Even the tiny things you do have somehow become some of my favorite things.</p></div>
+    <div class="reason"><span>04</span><h3>Your presence</h3><p>You don't have to do anything special. Just having you around means so much to me.</p></div>
+    <div class="reason"><span>05</span><h3>Your strength</h3><p>I admire the way you keep going, even when things aren't easy.</p></div>
+    <div class="reason"><span>06</span><h3>The way you love</h3><p>The moments when you care, worry, laugh, and simply be yourself mean everything to me.</p></div>
+    <div class="reason"><span>07</span><h3>You being you</h3><p>More than anything, I love you for being exactly the person you are.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>My Promise</h2>
+  <div class="card">
+    <p class="promise">
+      I can't promise that every day will be perfect,<br>
+      but I can promise that I'll keep caring,<br>
+      keep communicating, keep choosing you,<br>
+      and keep trying to make our little world<br>
+      a place where both of us feel loved.
+    </p>
+  </div>
+</section>
+
+<section class="final">
+  <div>
+    <div class="small">Seven months down...</div>
+    <h2>Forever to go. ❤️</h2>
+    <p>
+      Thank you for being my person.<br>
+      Happy 7 Months, baby.<br><br>
+      <strong>With all my love, always.</strong>
+    </p>
+    <div class="footer">MADE WITH LOVE ♥</div>
+  </div>
+</section>
+
+</main>
+
+<script>
+function openLetter(){
+  const letter=document.getElementById("letter");
+  letter.classList.add("show");
+  setTimeout(()=>letter.scrollIntoView({behavior:"smooth"}),80);
+  for(let i=0;i<14;i++){
+    const h=document.createElement("div");
+    h.className="floating";
+    h.innerHTML=["♥","♡","✦","❤"][Math.floor(Math.random()*4)];
+    h.style.left=Math.random()*100+"vw";
+    h.style.animationDelay=(Math.random()*2)+"s";
+    h.style.animationDuration=(6+Math.random()*5)+"s";
+    document.body.appendChild(h);
+    setTimeout(()=>h.remove(),11000);
+  }
+}
+</script>
+</body>
+</html>
